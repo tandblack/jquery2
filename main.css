@@ -1,0 +1,32 @@
+body, html, div, header {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+    width: 100%;
+}
+#mainContainer {
+    margin-left: 25%;
+    margin-top: 20px;
+    width: 40%;
+    height: 80%;
+    display: inline-flex;
+    flex-wrap: wrap;
+   
+}
+
+#mainContainer > div {
+    margin: 8px;
+}
+
+.greyBox {
+    height: 100px;
+    width: 100px;
+    background-color: #333333;
+
+}
+.toggleColor {
+    background-color: #999999;
+}
+
